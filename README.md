@@ -32,4 +32,6 @@ After starting the app, navigate to http://localhost:3000 in your browser. You c
 - [Node.js](https://nodejs.org/en/download/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
 
+## License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
