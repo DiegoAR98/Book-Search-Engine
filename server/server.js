@@ -1,4 +1,3 @@
-require('dotenv').config();
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
@@ -15,11 +14,11 @@ async function startApolloServer(typeDefs, resolvers) {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
-    context: authMiddleware, // You will use this middleware to handle user authentication in GraphQL
+    context: authMiddleware, // Use this middleware to handle user authentication in GraphQL
+    persistedQueries: false, // Disable persisted queries to address the vulnerability
   });
 
   await server.start();
-
   server.applyMiddleware({ app });
 
   app.use(express.urlencoded({ extended: true }));
