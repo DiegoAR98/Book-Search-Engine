@@ -35,3 +35,5 @@ After starting the app, navigate to http://localhost:3000 in your browser. You c
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## SHOULD INCLUDE LINK AND PHOTO BELOW
