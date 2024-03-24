@@ -3,11 +3,6 @@ const mongoose = require('mongoose');
 // Load environment variables from .env file
 require('dotenv').config();
 
-
-mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
-  
+mongoose.connect(process.env.MONGODB_URI);
 
 module.exports = mongoose.connection;
