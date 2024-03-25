@@ -36,4 +36,9 @@ After starting the app, navigate to http://localhost:3000 in your browser. You c
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## SHOULD INCLUDE LINK AND PHOTO BELOW
+## Deployment
+
+This application is deployed on Render.[Click here](https://book-search-engine-v9bj.onrender.com/) to view the live project.
+
+
+<img src="./client/src/assets/photo.jpg" width="400" height="400" alt="demo.png">
