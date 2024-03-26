@@ -8,7 +8,7 @@ import './App.css';
 
 // Create an HTTP link that connects to your GraphQL endpoint
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3001/graphql',
+  uri: '/graphql',
 });
 
 // Create a middleware that attaches the token to each request
